@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.landingpage {
+  height: 100vh;
+  width: 100%;
+  /* background-color: blue; */
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* text-align: center; */
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+.polo {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.navul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 100px;
+  list-style: none;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navsvg {
+  height: 100px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.svg1 {
+  height: 30px;
+  width: 25px;
+}
+.svg2 {
+  height: 30px;
+  width: 25px;
+}
+.slide {
+  height: 90vh;
+  width: 100%;
+  background-image: url(./img/Tiger-of-Sweden-2016-Spring-Summer-Campaign-Adrien-Sahores-001.jpg);
+  background-size: cover;
+}
+.text-one {
+  width: 40rem;
+  height: 43.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.create {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.brace-container {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.brace {
+  font-size: 20px;
+}
+.purchase {
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 180px;
+  border-radius: 10px;
+  border: none;
+}
+.contain-two {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bethefirst {
+  display: flex;
+  height: 100vh;
+  width: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bethe {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.setyou {
+  font-size: 55px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.line {
+  height: 2px;
+  width: 140px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+.nulla-p {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.628);
+  margin-bottom: 30px;
+}
+.play {
+  height: 120px;
+  width: 120px;
+}
+.contain-three {
+  background-color: whitesmoke;
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seebyyou {
+  display: flex;
+  height: 100vh;
+  width: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.bethe {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.afford {
+  font-size: 55px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.line-two {
+  height: 2px;
+  width: 140px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+.p-two {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.628);
+}
+.cards {
+  display: flex;
+}
+.card-one {
+  height: 600px;
+  width: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.ulti {
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.plan {
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgba(128, 128, 128, 0.826);
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.beni {
+  height: 300px;
+}
+.card-list {
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.buy {
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.buy-now {
+  height: 40px;
+  width: 100px;
+}
